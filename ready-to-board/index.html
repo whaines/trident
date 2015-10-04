@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Ready to Board - Princess Cruise Lines</title>
+		<meta name="description" content="Set up your Ocean Profile." />
+		<meta name="keywords" content="ocean profile, sign up, princess" />
+		<meta name="author" content="Codrops" />
+		<link rel="shortcut icon" href="../favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<link rel="stylesheet" type="text/css" href="css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="css/cs-select.css" />
+		<link rel="stylesheet" type="text/css" href="css/cs-skin-boxes.css" />
+		<link rel="stylesheet" type="text/css" href="css/hover.css" />
+		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+		<!--load gotham font -->
+		<link rel="stylesheet" type="text/css" href="//cloud.typography.com/7793674/629088/css/fonts.css" />
+		<script src="js/modernizr.custom.js"></script>
+
+	</head>
+	<body>
+		<div class="headerBar">
+			<p>READY TO BOARD</p>
+			<ul>
+				<li><img src="./img/craig.png"/></li>
+				<li  id="picker"><img src="./img/jessica.png"/></li>
+				<li  id="picker"><img src="./img/adam.png"/></li>
+			</ul>
+		</div>
+		<div class="container">
+			<div class="fs-form-wrap" id="fs-form-wrap">
+				<form id="myform" class="fs-form fs-form-full" autocomplete="off">
+
+					<div id="openModal" class="modalDialog">
+						    <div>
+						      <p>CONGRATS, CRAIG!</p>
+									<img src="./img/medallions.png"/ id="medallionss">
+									<img src="./img/medallion_abilities.svg"/ id="abilities">
+									<a href="#close" class="close"><img src="./img/next_button.png" class="hvr-fade"/></a>
+						    </div>
+					</div>
+
+					<div id="openBandModal" class="modalDialog">
+						    <div>
+						      <p>CONGRATS, CRAIG!</p>
+									<img src="./img/medallions.png"/ id="medallionss">
+									<img src="./img/medallion_abilities.svg"/ id="abilities">
+									<a href="#close" class="close"><img src="./img/next_button.png" class="hvr-fade"/></a>
+						    </div>
+					</div>
+
+					<ol class="fs-fields">
+
+
+						<!-- Accessories -->
+
+						<li id="transportation">
+							<label class="fs-field-label fs-anim-upper" for="q4" style="padding-bottom: 2em;">Accessories</label>
+							<div>
+								<ul id="bandz" style="margin-bottom: 5%;">
+									<li class="security_img">
+										<a href="#openBandModal"><label class="fs-anim-lower"><img src="./img/blue_sport.png"/></label></a>
+									</li>
+									<li class="security_img">
+										<label class="fs-anim-lower"><img src="./img/premium_band.png"/></label>
+									</li>
+									<li class="security_img">
+										<label class="fs-anim-lower"><img src="./img/cuff.png"/></label>
+									</li>
+								</ul>
+							<div class="fs-anim-upper" id="arrows"><img src="./img/arrows.png"/></div>
+							<hr class="fs-anim-lower" style="margin-bottom:2%;">
+							<div id="brands" class="fs-anim-lower">
+								<ul>
+									<li class="hvr-fade" id="selected_brand">Ocean Brand</li>
+									<li class="hvr-fade">Prada</li>
+									<li class="hvr-fade">Gucci</li>
+									<li class="hvr-fade">Louis Vuitton</li>
+									<li class="hvr-fade">Tiffany's</li>
+								</ul>
+							</div>
+						</li>
+
+
+						<!-- flight info -->
+
+						<li>
+							<label class="fs-field-label fs-anim-upper" for="q1">Flying? Enter itinerary number here:</label>
+							<input class="fs-anim-lower" id="q1" name="q1" type="email" placeholder="intinerary number (#)" />
+							<div class="fs-anim-lower" style="text-align:center; margin-top:10%;"><img style="width:60%" src="./img/virgin.svg"/></div>
+						</li>
+
+
+						<!-- transportation to port -->
+
+						<li id="transportation">
+							<label class="fs-field-label fs-anim-upper" for="q4">Transportation to port</label>
+							<ul style="margin-bottom: 7%;">
+									<li class="security_img">
+										<label class="fs-anim-lower"><img class="hvr-fade " src="./img/motorcoach.svg"/></label>
+									</li>
+									<li class="security_img">
+										<label class="fs-anim-lower"><img class="hvr-fade " src="./img/car.svg"/></label>
+									</li>
+									<li class="security_img">
+										<label class="fs-anim-lower"><img class="hvr-fade " src="./img/none.svg"/></label>
+									</li>
+							</ul>
+							<input class="fs-anim-lower" id="q1" name="q1" type="email" placeholder="address for pick up">
+							<label class="fs-field-label fs-anim-upper" for="q4">These travel plans apply to:</label>
+							<ul id="plans" class="fs-anim-lower">
+								<li  id="picker"><img src="./img/craig.png"/></li>
+								<li  id="picker"><img src="./img/jessica.png"/></li>
+								<li  id="picker"><img src="./img/adam.png"/></li>
+							</ul>
+						</li>
+
+
+						<!-- transportation from port -->
+
+						<li id="transportation">
+							<label class="fs-field-label fs-anim-upper" for="q4">Transportation from port</label>
+							<ul style="margin-bottom: 7%;">
+									<li class="security_img">
+										<label class="fs-anim-lower"><img class="hvr-fade " src="./img/motorcoach.svg"/></label>
+									</li>
+									<li class="security_img">
+										<label class="fs-anim-lower"><img class="hvr-fade " src="./img/car.svg"/></label>
+									</li>
+									<li class="security_img">
+										<label class="fs-anim-lower"><img class="hvr-fade " src="./img/none.svg"/></label>
+									</li>
+							</ul>
+							<input class="fs-anim-lower" id="q1" name="q1" type="email" placeholder="address for drop off">
+							<label class="fs-field-label fs-anim-upper" for="q4">These travel plans apply to:</label>
+							<ul id="plans" class="fs-anim-lower">
+								<li  id="picker"><img src="./img/craig.png"/></li>
+								<li  id="picker"><img src="./img/jessica.png"/></li>
+								<li  id="picker"><img src="./img/adam.png"/></li>
+							</ul>
+						</li>
+
+
+						<!-- celebrations -->
+
+						<li id="transportation">
+							<label class="fs-field-label fs-anim-upper" for="q4">Will you be celebrating any special events?</label>
+							<ul style="margin-bottom: 7%;">
+									<li class="security_img">
+										<label class="fs-anim-lower"><img class="hvr-fade " src="./img/birthday.svg"/></label>
+									</li>
+									<li class="security_img">
+										<label class="fs-anim-lower"><img class="hvr-fade " src="./img/anniversary.svg"/></label>
+									</li>
+									<li class="security_img">
+										<label class="fs-anim-lower"><img class="hvr-fade " src="./img/bon_voyage.svg"/></label>
+									</li>
+							</ul>
+							<input class="fs-anim-lower" id="q1" name="q1" type="email" placeholder="address for pick up">
+							<label class="fs-field-label fs-anim-upper" for="q4">These travel plans apply to:</label>
+							<ul id="plans" class="fs-anim-lower">
+								<li  id="picker"><img src="./img/craig.png"/></li>
+								<li  id="picker"><img src="./img/jessica.png"/></li>
+								<li  id="picker"><img src="./img/adam.png"/></li>
+							</ul>
+						</li>
+
+
+						<!-- Expenses -->
+
+						<li id="expenses">
+							<label class="fs-field-label fs-anim-upper" for="q4">Would you like to provide allowances?</label>
+							<div style="display: -webkit-inline-box">
+							<div>
+							<ul style="padding-left: 0px;">
+									<li class="expenses_radios">
+										<label class="fs-anim-lower"><img src="./img/jessica.png"/></label>
+										<ul class="fs-anim-lower">
+											<li class="radio">
+												<label>
+    											<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+    												<span style="font-family: Gotham ;font-size: 0.3em;">Daily Allowance</span>
+														<span><textarea name="name" rows="1" cols="1" placeholder="daily max ($)"></textarea></span>
+  											</label>
+											</li>
+											<li class="radio">
+												<label>
+    											<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1">
+    												<span style="font-family: Gotham ;font-size: 0.3em;">Pay All Expenses</span>
+  											</label>
+											</li>
+											<li class="radio">
+												<label>
+    											<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1">
+    												<span style="font-family: Gotham ;font-size: 0.3em;">None</span>
+  											</label>
+											</li>
+										</ul>
+									</li>
+								</ul>
+							</div>
+							<div>
+								<ul>
+									<li class="expenses_radios">
+										<label class="fs-anim-lower"><img src="./img/adam.png"/></label>
+										<ul class="fs-anim-lower">
+											<li class="radio">
+												<label>
+    											<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+    												<span style="font-family: Gotham ;font-size: 0.3em;">Daily Allowance</span>
+														<span><textarea name="name" rows="1" cols="1" placeholder="daily max ($)"></textarea></span>
+
+  											</label>
+											</li>
+											<li class="radio">
+												<label>
+    											<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1">
+    												<span style="font-family: Gotham ;font-size: 0.3em;">Pay All Expenses</span>
+  											</label>
+											</li>
+											<li class="radio">
+												<label>
+    											<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1">
+    												<span style="font-family: Gotham ;font-size: 0.3em;">None</span>
+  											</label>
+											</li>
+										</ul>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</li>
+
+
+					<!-- tips -->
+
+					<li id="transportation">
+						<label class="fs-field-label fs-anim-upper" for="q4">Would you like to prepay your tips?</label>
+						<ul style="margin-bottom: 7%;">
+								<li class="security_img">
+									<label class="fs-anim-lower"><img class="hvr-fade " src="./img/10%.png"/></label>
+								</li>
+								<li class="security_img">
+									<label class="fs-anim-lower"><img class="hvr-fade " src="./img/15%.png"/></label>
+								</li>
+								<li class="security_img">
+									<label class="fs-anim-lower"><img class="hvr-fade " src="./img/20%.png"/></label>
+								</li>
+						</ul>
+						<div id="tips" class="fs-anim-upper">
+							<p>or</p>
+							<button><img src="./img/tips_button.png" class="hvr-fade"/></button>
+						</div>
+					</li>
+
+
+					<!--Payment info-->
+
+					<li id="expenses">
+						<label class="fs-field-label fs-anim-upper" for="q4">Payment Info</label>
+						<div id="payment">
+							<ul id="move_card">
+								<li class="expenses_radios">
+									<ul class="fs-anim-lower" style="padding-left:0px;">
+										<li class="radio">
+											<label>
+												<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+													<span style="font-family: Gotham ;font-size: 0.5em;">USE CARD ON FILE</span>
+											</label>
+										</li>
+										<span><img src="./img/card_info.png"/ id="card_info"></span>
+										<li class="radio">
+											<label>
+												<input type="radio" name="optionsRadios" id="optionsRadios1" value="option2">
+													<span style="font-family: Gotham ;font-size: 0.5em;">ADD NEW CARD</span>
+											</label>
+										</li>
+									</ul>
+								</li>
+							</ul>
+							<div class="fs-anim-lower" id="credit_card">
+								<img src="./img/credit_card.png"/ style="margin-bottom: 3%">
+							</div>
+							<div class="fs-anim-upper container1" id="verify">
+								<a href="#openModal"><img src="./img/verify_button.png" class="hvr-fade"/></a>
+							</div>
+					</li>
+
+
+					</ol><!-- /fs-fields -->
+					<button class="fs-submit" type="submit">Submit</button>
+				</form><!-- /fs-form -->
+			</div><!-- /fs-form-wrap -->
+
+		</div><!-- /container -->
+
+
+
+		<script src="js/classie.js"></script>
+		<script src="js/selectFx.js"></script>
+		<script src="js/fullscreenForm.js"></script>
+
+		</script>
+		<script>
+			(function() {
+				var formWrap = document.getElementById( 'fs-form-wrap' );
+
+				[].slice.call( document.querySelectorAll( 'select.cs-select' ) ).forEach( function(el) {
+					new SelectFx( el, {
+						stickyPlaceholder: false,
+						onChange: function(val){
+							document.querySelector('span.cs-placeholder').style.backgroundColor = val;
+						}
+					});
+				} );
+
+				new FForm( formWrap, {
+					onReview : function() {
+						classie.add( document.body, 'overview' ); // for demo purposes only
+					}
+				} );
+			})();
+		</script>
+		<script>
+			var wrapper = $('<div/>').css({height:0,width:0,'overflow':'hidden'});
+			var fileInput = $(':file').wrap(wrapper);
+
+			fileInput.change(function(){
+			    $this = $(this);
+			    $('#passportPhoto').text($this.val());
+			})
+
+			$('#passportPhoto').click(function(){
+			    fileInput.click();
+			}).show();
+		</script>
+	</body>
+</html>

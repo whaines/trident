@@ -1,0 +1,368 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,700);
+@font-face {
+	font-weight: normal;
+	font-style: normal;
+	font-family: 'codropsicons';
+	src:url('../fonts/codropsicons/codropsicons.eot');
+	src:url('../fonts/codropsicons/codropsicons.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/codropsicons/codropsicons.woff') format('woff'),
+		url('../fonts/codropsicons/codropsicons.ttf') format('truetype'),
+		url('../fonts/codropsicons/codropsicons.svg#codropsicons') format('svg');
+}
+
+*, *:after, *:before { -webkit-box-sizing: border-box; box-sizing: border-box; }
+.clearfix:before, .clearfix:after { content: ''; display: table; }
+.clearfix:after { clear: both; }
+
+html, body, .container {
+	height: 100%;
+}
+
+body {
+	background: #1774E0;
+	color: #fff;
+	font-size: 1em;
+	overflow: hidden;
+	overflow-y: scroll;
+	min-height: 590px;
+	font-family: "Gotham SSm A", "Gotham SSm B", helvetica, arial, sans-serif;
+	font-style: normal;
+	font-weight: 400;
+}
+
+a {
+	color: rgba(0,0,0,0.3);
+	text-decoration: none;
+	outline: none;
+}
+
+a:hover, a:focus {
+	color: #fff;
+}
+
+input: autofill{
+	background-color: rgba(255,255,255,0.2);
+}
+
+/* Top Navigation Style */
+.codrops-top {
+	margin-top: 1em;
+    float: left;
+    display: inline;
+}
+
+.codrops-top a {
+	font-size: 0.69em;
+	padding: 0 0.25em;
+	display: inline-block;
+	text-decoration: none;
+	font-size: 1.2em;
+}
+
+.codrops-icon:before {
+	margin: 0 4px;
+	text-transform: none;
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	font-family: 'codropsicons';
+	line-height: 1;
+	speak: none;
+	-webkit-font-smoothing: antialiased;
+}
+
+.codrops-icon-drop:before {
+	content: "\e001";
+}
+
+.codrops-icon-prev:before {
+	content: "\e004";
+}
+
+.codrops-icon-info:before {
+	content: "\e003";
+}
+
+.codrops-icon span {
+	display: none;
+	position: absolute;
+	font-size: 0.85em;
+	padding: 0.5em 0 0 0.25em;
+	font-weight: 700;
+}
+
+.codrops-icon:hover span {
+	display: block;
+	color: #6a7b7e;
+}
+
+/* Related demos */
+.related {
+	font-weight: 700;
+	text-align: center;
+	padding: 5em 0;
+	display: none;
+	background: #fff;
+	color: rgba(0,0,0,0.3);
+}
+
+.overview .related {
+	display: block;
+}
+
+.related > a {
+	border: 3px solid black;
+	border-color: initial;
+	display: inline-block;
+	text-align: center;
+	margin: 20px 10px;
+	padding: 25px;
+}
+
+.related > a:hover,
+.related > a:focus {
+	color: rgba(0,0,0,0.5);
+}
+
+.related a img {
+	max-width: 100%;
+	opacity: 0.8;
+}
+
+.related a:hover img,
+.related a:active img {
+	opacity: 1;
+}
+
+.related a h3 {
+	margin: 0;
+	padding: 0.5em 0 0.3em;
+	max-width: 300px;
+	text-align: left;
+}
+
+/* Matter CSS */
+ul.header-menu {
+    float: left;
+    width: 50%;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    display: inline;
+}
+.header-menu li {
+	display: inline;
+}
+.fs-title {
+    margin: 0 auto;
+    padding: 40px;
+    width: 1280px;
+}
+.fs-title h1 {
+	display: inline;
+	float: left;
+}
+.princess-title {
+
+}
+.fs-nav-dots button:hover::before, .fs-nav-dots button.fs-dot-current::before {
+    background: #fff;
+}
+.fs-progress {
+	background: rgba(0,0,0,0.3);
+}
+.fs-fields input {
+	color: #fff;
+	font-weight: 300;
+}
+.fs-message-error {
+	color: rgba(0,0,0,0.87);
+	bottom: 90%;
+}
+.fs-fields [required] {
+	margin: 0 0 1em 0;
+}
+.fs-form-overview {
+	background: rgba(0, 0, 0, 0.1);
+	border-radius: 5px;
+}
+.fs-fields input {
+	font-size: 0.75em;
+	font-weight: normal;
+	text-align: center;
+}
+
+.fs-anim-lower{
+	margin-bottom: 5%;
+}
+
+select {
+    width: 100%;
+    font-size: 1em;
+    font-family: "Gotham SSm A", "Gotham SSm B", helvetica, arial, sans-serif;
+    background-color: transparent;
+    border: black;
+    font-weight: 300;
+    color: #fff;
+		margin-bottom: 10%;
+}
+.fs-fields > li label.fs-field-label {
+	/* color: rgba(0,0,0,0.57); */
+	color: rgba(255,255,255);
+}
+.fs-form-overview select {
+    color: white;
+}
+.fs-form-overview .fs-fields input {
+    color: white;
+}
+.fs-form-overview label {
+    color: rgba(0,0,0,0.57);
+}
+
+.container {
+    margin: 0 auto;
+    /* max-width: 1280px; */
+    max-width: 925px;
+    width: 100%
+}
+.fs-fields textarea {
+	color: #fff;
+}
+.formButton {
+	padding: 0.6em 1.5em;
+    border: 3px solid #232529 !important;
+    border-radius: 5px;
+    font-weight: 700;
+    color: rgba(0,0,0,0.4);
+    width: 100%;
+    margin: 0 0 .5em 0;
+}
+.formButton:hover {
+	background: #232529;
+    color: #fff;
+}
+input[type="checkbox"] {
+	position: relative;
+    left: -9999px;
+}
+.customCheck {
+  display: block;
+  position: relative;
+  margin: 10px 0;
+  padding-left: 35px;
+  cursor: pointer;
+}
+
+.customCheck::before, .customCheck::after {
+  content: '';
+  position: absolute;
+  top: 25%;
+  left: 0;
+}
+
+input[type="radio"] + .customCheck::before,
+input[type="radio"] + .customCheck::after {
+  border-radius: 50%;
+}
+
+.customCheck::before {
+  display: block;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #fff;
+}
+
+input:focus + .customCheck::before {
+  border-color: #fff;
+}
+
+.customCheck::after {
+  display: none;
+  width: 12px;
+  height: 12px;
+  margin: 4px;
+  background-color: #fff;
+}
+input:checked + .customCheck::after {
+  display: block;
+}
+/* style checkboxes on overview */
+.fs-form-overview .customCheck::before {
+	border: 2px solid rgba(0,0,0,0.57);
+}
+.fs-form-overview input:focus + .customCheck::before {
+  border-color: rgba(0,0,0,0.57);
+}
+.fs-form-overview .customCheck::after {
+  background-color: rgba(0,0,0,0.57);
+}
+textarea {
+	margin: 20px 0 0 0;
+}
+.uploadPassport {
+	display: none;
+}
+#passportPicture:checked ~ .uploadPassport {
+    display: block;
+}
+.typePassport {
+	display: none;
+}
+#passportData:checked ~ .typePassport {
+    display: block;
+}
+.princessLogo {
+	width: 63px;
+    height: 30px;
+}
+/* style header */
+.headerBar {
+	height: 38px;
+	/* background-color: rgba(255, 255, 255, 0.2); */
+	background-color: none;
+}
+.headerBar p {
+	text-align: center;
+	margin: 25px 0 0 0;
+}
+.headerNav {
+	display: block;
+	margin: 0 auto;
+	position: relative;
+	top: 8px;
+}
+.labelCaption {
+		text-align: center;
+	  font-size: 16px;
+    margin: -25px 0 50px 0;
+    font-weight: 300;
+    color: rgba(255,255,255,0.85);
+}
+.labelCaption a {
+    color: rgba(255,255,255,1);
+    font-weight: 300;
+}
+a:hover {
+	font-weight: 500;
+}
+.fs-form-overview p {
+	color: rgba(255, 255, 255, 0.5);
+}
+.fs-form-overview li label.fs-field-label {
+	color: rgba(255, 255, 255, 0.5);
+	font-size: 1em;
+}
+.medallionImg {
+	margin: -40px auto 0 auto;
+    display: block;
+		height: 30%;
+		width: 30%;
+}
+label.fs-anim-lower.customCheck {
+	font-size: 36px;
+    font-weight: 300;
+}
+#file {
+    display:none;
+}

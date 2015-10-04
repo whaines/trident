@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Creating Ocean Profile - Princess Cruise Lines</title>
+		<meta name="description" content="Set up your Ocean Profile." />
+		<meta name="keywords" content="ocean profile, sign up, princess" />
+		<meta name="author" content="Codrops" />
+		<link rel="shortcut icon" href="../favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<link rel="stylesheet" type="text/css" href="css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="css/cs-select.css" />
+		<link rel="stylesheet" type="text/css" href="css/cs-skin-boxes.css" />
+		<link rel="stylesheet" type="text/css" href="css/hover.css" />
+		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+		<!--load gotham font -->
+		<link rel="stylesheet" type="text/css" href="//cloud.typography.com/7793674/629088/css/fonts.css" />
+		<script src="js/modernizr.custom.js"></script>
+	</head>
+	<body>
+		<div class="headerBar">
+			<p><a href="#">Save and close</a></p>
+			<!--<img class="headerNav" src="./img/headerFill.png" />-->
+		</div>
+		<div class="container">
+
+			<div class="fs-form-wrap" id="fs-form-wrap">
+
+				<form id="myform" class="fs-form fs-form-full" autocomplete="off">
+					<ol class="fs-fields">
+
+						<!-- create the user's account -->
+						<li>
+							<label class="fs-field-label fs-anim-upper" for="q1">Join the Ocean</label>
+								<p class="labelCaption fs-field-label fs-anim-upper">We’ve made it easier than ever to keep track of all your cruises. Plus see how many Ocean points you’ve earned toward your next reward cruise.</p>
+							<input class="fs-anim-lower" id="q1" name="q1" type="email" placeholder="Email" />
+							<input class="fs-anim-lower" id="q1" name="q1" type="password" placeholder="Password" />
+							<input class="fs-anim-lower" id="q1" name="q1" type="password" placeholder="Confirm Password" />
+							<div id="facebook" class="fs-anim-lower">
+								<p>OR</p>
+								<a href=""><button><img src="./img/facebook.png"/></button></a>
+							</div>
+						</li>
+
+						<!-- get the users name -->
+						<li style="margin: -10px 0 0 0;">
+							<label class="fs-field-label fs-anim-upper" for="q1">Let’s start with your name…</label>
+							<img class="medallionImg fs-anim-upper" src="./img/princessMedallion.png" />
+							<input class="fs-anim-lower" id="q1" name="q1" type="text" placeholder="First name" required />
+							<input class="fs-anim-lower" id="q1" name="q1" type="text" placeholder="Last name" required/>
+						</li>
+
+						<!-- contact info -->
+						<li style="margin-top: 10%">
+							<label class="fs-field-label fs-anim-upper" for="q2" data-info="We'll use it sparingly, we promise.">What’s your phone number?</label>
+							<input class="fs-anim-lower" id="q2" name="q2" type="tel" placeholder="Phone number" />
+						</li>
+
+						<!-- awkward info -->
+						<li id="accessibility">
+							<label class="fs-field-label fs-anim-upper" for="q3">Your gender and birthday, too?</label>
+							<ul style="margin-bottom: 7%;">
+									<li class="security_img">
+										<label class="fs-anim-lower"><img class="hvr-fade" id="opacity" onclick="clickFade()" src="./img/male.svg"/></label>
+									</li>
+									<li class="security_img">
+										<label class="fs-anim-lower"><img class="hvr-fade" id="opacity" onclick="clickFade()" src="./img/female.svg"/></label>
+									</li>
+									<li class="security_img">
+										<label class="fs-anim-lower"><img class="hvr-fade" id="opacity" onclick="clickFade()" src="./img/custom.svg"/></label>
+									</li>
+							</ul>
+							<input class="fs-anim-lower" id="q3" name="q3" type="date"/>
+						</li>
+
+						<!-- address  -->
+						<li>
+							<label class="fs-field-label fs-anim-upper" for="q4">And your primary address?</label>
+							<input class="fs-anim-lower" id="q1" name="q3" type="text" placeholder="Street" />
+							<input class="fs-anim-lower" id="q1" name="q3" type="text" placeholder="City" />
+							<input class="fs-anim-lower" id="q1" name="q3" type="text" placeholder="State" />
+							<input class="fs-anim-lower" id="q1" name="q3" type="text" placeholder="Zipcode" />
+						</li>
+
+						<!-- emergency3 contact -->
+						<li>
+							<label class="fs-field-label fs-anim-upper" for="q2">Who should we contact in an emergency?</label>
+							<input class="fs-anim-lower" id="q2" name="q2" type="text" placeholder="Name"/>
+							<input class="fs-anim-lower" id="q2" name="q2" type="text" placeholder="Relationship" />
+							<input class="fs-anim-lower" id="q4" name="q4" type="tel" placeholder="Phone number" />
+						</li>
+
+						<!-- accessibility -->
+						<li id="accessibility">
+							<label class="fs-field-label fs-anim-upper" for="q4">Anything else we should know?</label>
+							<ul style="margin-bottom: 7%;">
+									<li class="security_img">
+										<label class="fs-anim-lower"><img class="hvr-fade" id="opacity" onclick="clickFade()" src="./img/handicap.svg"/></label>
+									</li>
+									<li class="security_img">
+										<label class="fs-anim-lower"><img class="hvr-fade" id="opacity" onclick="clickFade()" src="./img/dietary.svg"/></label>
+									</li>
+									<li class="security_img">
+										<label class="fs-anim-lower"><img class="hvr-fade" id="opacity" onclick="clickFade()" src="./img/medical.svg"/></label>
+									</li>
+							</ul>
+							<input class="fs-anim-lower" id="q1" name="q1" type="email" placeholder="please enter more information here">
+						</li>
+
+						<!-- security -->
+						<li id="security">
+							<label class="fs-field-label fs-anim-upper" for="q4">Finally, your photo documentation:</label>
+							<ul style="list-style-type: none; position: relative;">
+								<a href="">
+									<li class="security_img">
+										<input class="fs-anim-lower" id="passportPicture" type="file">
+										<label class="fs-anim-lower" for="passportPicture"><img class="hvr-fade" id="opacity" onclick="clickFade()" src="./img/passport.svg"/></label>
+									</li>
+								</a>
+								<a href="">
+									<li class="security_img">
+										<input class="fs-anim-lower" id="passportPicture" type="file">
+										<label class="fs-anim-lower" for="passportPicture"><img class="hvr-fade" id="opacity" onclick="clickFade()" src="./img/security.svg"/></label>
+									</li>
+								</a>
+								<a href="">
+									<li class="security_img">
+										<input class="fs-anim-lower" id="passportPicture" type="file">
+										<label class="fs-anim-lower" for="passportPicture"><img class="hvr-fade" id="opacity" onclick="clickFade()" src="./img/profile.svg"/></label>
+									</li>
+								</a>
+							</ul>
+						</li>
+
+
+					</ol><!-- /fs-fields -->
+					<button class="fs-submit" type="submit">Submit</button>
+				</form><!-- /fs-form -->
+			</div><!-- /fs-form-wrap -->
+
+		</div><!-- /container -->
+		<script src="js/classie.js"></script>
+		<script src="js/selectFx.js"></script>
+		<script src="js/fullscreenForm.js"></script>
+		<script src="js/jquery-2.1.4.js"></script>
+
+		<script>
+			function clickFade() {
+				document.getElementById("opacity").style.backgroundColor = "rgba(255, 255, 255, 0.5)";
+			}
+		</script>
+
+		<script>
+			(function() {
+				var formWrap = document.getElementById( 'fs-form-wrap' );
+
+				[].slice.call( document.querySelectorAll( 'select.cs-select' ) ).forEach( function(el) {
+					new SelectFx( el, {
+						stickyPlaceholder: false,
+						onChange: function(val){
+							document.querySelector('span.cs-placeholder').style.backgroundColor = val;
+						}
+					});
+				} );
+
+				new FForm( formWrap, {
+					onReview : function() {
+						classie.add( document.body, 'overview' ); // for demo purposes only
+					}
+				} );
+			})();
+		</script>
+
+		<script>
+			var wrapper = $('<div/>').css({height:0,width:0,'overflow':'hidden'});
+			var fileInput = $(':file').wrap(wrapper);
+
+			fileInput.change(function(){
+			    $this = $(this);
+			    $('#passportPhoto').text($this.val());
+			})
+
+			$('#passportPhoto').click(function(){
+			    fileInput.click();
+			}).show();
+		</script>
+	</body>
+</html>
