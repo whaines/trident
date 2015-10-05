@@ -39,9 +39,9 @@
 							<div class="fs-anim-lower"><img src="./img/excursion.png"/></div>
 							<label class="fs-field-label fs-anim-upper" for="q1" id="shopping_bag_label">Medallion Accessories</label>
 							<div class="fs-anim-lower hvr-fade" id="medallion"><img src="./img/sport_band.png"/></div>
-							<hr class="fs-anim-lower">
+							<hr class="fs-anim-upper">
 							<div class="fs-anim-lower hvr-fade" id="medallion"><img src="./img/pendant.png"/></div>
-							<hr class="fs-anim-lower">
+							<hr class="fs-anim-upper">
 							<div class="fs-anim-lower hvr-fade" id="medallion"><img src="./img/cuff.png"/></div>
 						</li>
 
@@ -75,7 +75,7 @@
 										</li>
 									</ul>
 								</li>
-								<hr class="fs-anim-lower">
+								<hr class="fs-anim-upper">
 									<li class="expenses_radios">
 										<label class="fs-anim-lower"><img src="./img/jessica_address.png" style="margin-bottom: 4%"/></label>
 										<ul class="fs-anim-lower">
@@ -99,7 +99,7 @@
 											</li>
 										</ul>
 									</li>
-									<hr class="fs-anim-lower">
+									<hr class="fs-anim-upper">
 									<li class="expenses_radios">
 										<label class="fs-anim-lower" ><img src="./img/adam_address.png" style="margin-bottom: 4%"/></label>
 										<ul class="fs-anim-lower">
@@ -221,19 +221,6 @@
 					}
 				} );
 			})();
-		</script>
-		<script>
-			var wrapper = $('<div/>').css({height:0,width:0,'overflow':'hidden'});
-			var fileInput = $(':file').wrap(wrapper);
-
-			fileInput.change(function(){
-			    $this = $(this);
-			    $('#passportPhoto').text($this.val());
-			})
-
-			$('#passportPhoto').click(function(){
-			    fileInput.click();
-			}).show();
 		</script>
 	</body>
 </html>

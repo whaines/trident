@@ -26,15 +26,15 @@
 			<p>READY TO BOARD</p>
 			<ul>
 				<li><img src="./img/craig.png"/></li>
-				<li  id="picker"><img src="./img/jessica.png"/></li>
-				<li  id="picker"><img src="./img/adam.png"/></li>
+				<li id="picker" class="faded"><img src="./img/jessica.png"/></li>
+				<li id="picker" class="faded"><img src="./img/adam.png"/></li>
 			</ul>
 		</div>
 		<div class="container">
 			<div class="fs-form-wrap" id="fs-form-wrap">
 				<form id="myform" class="fs-form fs-form-full" autocomplete="off">
 
-					<div id="openModal" class="modalDialog">
+					<div id="openModal" class="modalDialog1">
 						    <div>
 						      <p>CONGRATS, CRAIG!</p>
 									<img src="./img/medallions.png"/ id="medallionss">
@@ -43,55 +43,14 @@
 						    </div>
 					</div>
 
-					<div id="openBandModal" class="modalDialog">
+					<div id="openBandModal" class="modalDialog2">
 						    <div>
-						      <p>CONGRATS, CRAIG!</p>
-									<img src="./img/medallions.png"/ id="medallionss">
-									<img src="./img/medallion_abilities.svg"/ id="abilities">
-									<a href="#close" class="close"><img src="./img/next_button.png" class="hvr-fade"/></a>
+									<div><img src="./img/purchase_sport_band.svg"/ id="sport_band"></div>
+									<a href="#close" class="close"><img src="./img/add_to_cart.svg" class="hvr-fade"/></a>
 						    </div>
 					</div>
 
 					<ol class="fs-fields">
-
-
-						<!-- Accessories -->
-
-						<li id="transportation">
-							<label class="fs-field-label fs-anim-upper" for="q4" style="padding-bottom: 2em;">Accessories</label>
-							<div>
-								<ul id="bandz" style="margin-bottom: 5%;">
-									<li class="security_img">
-										<a href="#openBandModal"><label class="fs-anim-lower"><img src="./img/blue_sport.png"/></label></a>
-									</li>
-									<li class="security_img">
-										<label class="fs-anim-lower"><img src="./img/premium_band.png"/></label>
-									</li>
-									<li class="security_img">
-										<label class="fs-anim-lower"><img src="./img/cuff.png"/></label>
-									</li>
-								</ul>
-							<div class="fs-anim-upper" id="arrows"><img src="./img/arrows.png"/></div>
-							<hr class="fs-anim-lower" style="margin-bottom:2%;">
-							<div id="brands" class="fs-anim-lower">
-								<ul>
-									<li class="hvr-fade" id="selected_brand">Ocean Brand</li>
-									<li class="hvr-fade">Prada</li>
-									<li class="hvr-fade">Gucci</li>
-									<li class="hvr-fade">Louis Vuitton</li>
-									<li class="hvr-fade">Tiffany's</li>
-								</ul>
-							</div>
-						</li>
-
-
-						<!-- flight info -->
-
-						<li>
-							<label class="fs-field-label fs-anim-upper" for="q1">Flying? Enter itinerary number here:</label>
-							<input class="fs-anim-lower" id="q1" name="q1" type="email" placeholder="intinerary number (#)" />
-							<div class="fs-anim-lower" style="text-align:center; margin-top:10%;"><img style="width:60%" src="./img/virgin.svg"/></div>
-						</li>
 
 
 						<!-- transportation to port -->
@@ -112,10 +71,19 @@
 							<input class="fs-anim-lower" id="q1" name="q1" type="email" placeholder="address for pick up">
 							<label class="fs-field-label fs-anim-upper" for="q4">These travel plans apply to:</label>
 							<ul id="plans" class="fs-anim-lower">
-								<li  id="picker"><img src="./img/craig.png"/></li>
-								<li  id="picker"><img src="./img/jessica.png"/></li>
-								<li  id="picker"><img src="./img/adam.png"/></li>
+								<li class="faded"><img src="./img/craig.png"/></li>
+								<li class="faded"><img src="./img/jessica.png"/></li>
+								<li class="faded"><img src="./img/adam.png"/></li>
 							</ul>
+						</li>
+
+
+						<!-- flight info -->
+
+						<li>
+							<label class="fs-field-label fs-anim-upper" for="q1">Flying? Enter itinerary number here:</label>
+							<input class="fs-anim-lower" id="q1" name="q1" type="email" placeholder="intinerary number (#)" />
+							<div class="fs-anim-lower" style="text-align:center; margin-top:10%;"><img style="width:60%" src="./img/virgin.svg"/></div>
 						</li>
 
 
@@ -137,9 +105,9 @@
 							<input class="fs-anim-lower" id="q1" name="q1" type="email" placeholder="address for drop off">
 							<label class="fs-field-label fs-anim-upper" for="q4">These travel plans apply to:</label>
 							<ul id="plans" class="fs-anim-lower">
-								<li  id="picker"><img src="./img/craig.png"/></li>
-								<li  id="picker"><img src="./img/jessica.png"/></li>
-								<li  id="picker"><img src="./img/adam.png"/></li>
+								<li ><img src="./img/craig.png"/ class="faded"></li>
+								<li ><img src="./img/jessica.png"/ class="faded"></li>
+								<li ><img src="./img/adam.png"/ class="faded"></li>
 							</ul>
 						</li>
 
@@ -171,65 +139,40 @@
 
 						<!-- Expenses -->
 
-						<li id="expenses">
+						<li id="allowances">
 							<label class="fs-field-label fs-anim-upper" for="q4">Would you like to provide allowances?</label>
-							<div style="display: -webkit-inline-box">
-							<div>
-							<ul style="padding-left: 0px;">
-									<li class="expenses_radios">
-										<label class="fs-anim-lower"><img src="./img/jessica.png"/></label>
-										<ul class="fs-anim-lower">
-											<li class="radio">
-												<label>
-    											<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
-    												<span style="font-family: Gotham ;font-size: 0.3em;">Daily Allowance</span>
-														<span><textarea name="name" rows="1" cols="1" placeholder="daily max ($)"></textarea></span>
-  											</label>
-											</li>
-											<li class="radio">
-												<label>
-    											<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1">
-    												<span style="font-family: Gotham ;font-size: 0.3em;">Pay All Expenses</span>
-  											</label>
-											</li>
-											<li class="radio">
-												<label>
-    											<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1">
-    												<span style="font-family: Gotham ;font-size: 0.3em;">None</span>
-  											</label>
-											</li>
-										</ul>
+							<div style="display: -webkit-inline-box; margin-top: 5%; margin-right: 15%">
+							<div id="personal_allowances">
+								<label class="fs-anim-lower"><img src="./img/jessica.png"/ id="jessica"></label>
+								<ul class="fs-anim-lower">
+									<li class="security_img">
+										<label class="fs-anim-lower"><img class="hvr-fade " src="./img/yes.svg"/></label>
+									</li>
+									<li class="security_img">
+										<label class="fs-anim-lower"><img class="hvr-fade " src="./img/no.svg"/></label>
 									</li>
 								</ul>
+								<input class="fs-anim-lower" id="q1" name="q1" type="email" placeholder="enter daily max ($)">
+								<div id="pay_all" class="fs-anim-upper">
+									<p>or</p>
+									<button><img src="./img/pay_all_expenses.png" class="hvr-fade"/></button>
+								</div>
 							</div>
-							<div>
-								<ul>
-									<li class="expenses_radios">
-										<label class="fs-anim-lower"><img src="./img/adam.png"/></label>
-										<ul class="fs-anim-lower">
-											<li class="radio">
-												<label>
-    											<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
-    												<span style="font-family: Gotham ;font-size: 0.3em;">Daily Allowance</span>
-														<span><textarea name="name" rows="1" cols="1" placeholder="daily max ($)"></textarea></span>
-
-  											</label>
-											</li>
-											<li class="radio">
-												<label>
-    											<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1">
-    												<span style="font-family: Gotham ;font-size: 0.3em;">Pay All Expenses</span>
-  											</label>
-											</li>
-											<li class="radio">
-												<label>
-    											<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1">
-    												<span style="font-family: Gotham ;font-size: 0.3em;">None</span>
-  											</label>
-											</li>
-										</ul>
+							<div id="personal_allowances" style="padding-left: 5%">
+								<label class="fs-anim-lower"><img src="./img/jessica.png" id="adam"/></label>
+								<ul class="fs-anim-lower">
+									<li class="security_img">
+										<label class="fs-anim-lower"><img class="hvr-fade " src="./img/yes.svg"/></label>
+									</li>
+									<li class="security_img">
+										<label class="fs-anim-lower"><img class="hvr-fade " src="./img/no.svg"/></label>
 									</li>
 								</ul>
+								<input class="fs-anim-lower" id="q1" name="q1" type="email" placeholder="enter daily max ($)">
+								<div id="pay_all" class="fs-anim-upper">
+									<p>or</p>
+									<button><img src="./img/pay_all_expenses.png" class="hvr-fade"/></button>
+								</div>
 							</div>
 						</div>
 					</li>
@@ -290,6 +233,36 @@
 					</li>
 
 
+					<!-- Accessories -->
+
+					<li id="transportation">
+						<label class="fs-field-label fs-anim-upper" for="q4" style="padding-bottom: 2em;">Accessories</label>
+						<div>
+							<ul id="bandz" style="margin-bottom: 5%;">
+								<li class="security_img">
+									<a href="#openBandModal"><label class="fs-anim-lower"><img src="./img/blue_sport.png"/></label></a>
+								</li>
+								<li class="security_img">
+									<label class="fs-anim-lower"><img src="./img/premium_band.png"/></label>
+								</li>
+								<li class="security_img">
+									<label class="fs-anim-lower"><img src="./img/cuff.png"/></label>
+								</li>
+							</ul>
+						<div class="fs-anim-upper" id="arrows"><img src="./img/arrows.png"/></div>
+						<hr class="fs-anim-lower" style="margin-bottom:2%;">
+						<div id="brands" class="fs-anim-upper">
+							<ul>
+								<li class="hvr-fade" id="selected_brand">Ocean Brand</li>
+								<li class="hvr-fade">Prada</li>
+								<li class="hvr-fade">Gucci</li>
+								<li class="hvr-fade">Louis Vuitton</li>
+								<li class="hvr-fade">Tiffany's</li>
+							</ul>
+						</div>
+					</li>
+
+
 					</ol><!-- /fs-fields -->
 					<button class="fs-submit" type="submit">Submit</button>
 				</form><!-- /fs-form -->
@@ -298,11 +271,13 @@
 		</div><!-- /container -->
 
 
-
 		<script src="js/classie.js"></script>
 		<script src="js/selectFx.js"></script>
 		<script src="js/fullscreenForm.js"></script>
-
+		<script>
+			$("#picker").click(function(){
+    		$(this).toggleClass("selected");
+			});
 		</script>
 		<script>
 			(function() {
@@ -323,19 +298,6 @@
 					}
 				} );
 			})();
-		</script>
-		<script>
-			var wrapper = $('<div/>').css({height:0,width:0,'overflow':'hidden'});
-			var fileInput = $(':file').wrap(wrapper);
-
-			fileInput.change(function(){
-			    $this = $(this);
-			    $('#passportPhoto').text($this.val());
-			})
-
-			$('#passportPhoto').click(function(){
-			    fileInput.click();
-			}).show();
 		</script>
 	</body>
 </html>

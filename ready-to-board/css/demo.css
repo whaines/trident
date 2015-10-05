@@ -390,13 +390,24 @@ label.fs-anim-lower.customCheck {
 	font-size: 0.5em;
 }
 
-li#picker{
+
+/*picker states*/
+
+.faded{
 	opacity: 0.3;
+	cursor: pointer;
 }
 
-li#picker:hover{
+.faded:hover{
 	opacity: 1;
 }
+
+.selected{
+	opacity: 1;
+}
+
+
+/* payment */
 
 div#payment{
 	margin-top: 5%;
@@ -439,6 +450,8 @@ div#verify img{
 	margin-left: 53%;
 }
 
+/*security*/
+
 li#security ul{
 	list-style-type: none;
 	position: relative;
@@ -464,6 +477,8 @@ li#security ul a li label img{
 	width: 100%;
 	cursor: pointer;
 }
+
+/*transportation*/
 
 li#transportation ul{
 	list-style-type: none;
@@ -512,4 +527,114 @@ li#transportation div#brands ul li{
 
 li#transportation div#brands ul li#selected_brand{
 	opacity:1;
+}
+
+li#transportation ul#plans{
+	list-style-type: none;
+	text-align: center;
+	padding-right: 3%;
+}
+
+li#transportation ul#plans li{
+	text-align: center;
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+li#transportation ul#plans li img{
+	height: 60%;
+	width:60%;
+}
+
+
+/*celebrations*/
+
+li#celebrations ul{
+	list-style-type: none;
+	padding-right: 10%;
+	text-align: center;
+}
+
+li#celebrations ul li{
+	text-align: center;
+	display: inline-block;
+}
+
+li#celebrations ul#plans{
+	list-style-type: none;
+	text-align: center;
+	padding-right: 3%;
+}
+
+li#celebrations ul#plans li{
+	text-align: center;
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+/*expenses*/
+
+li#expenses ul{
+	list-style-type: none;
+	margin-bottom: 7%;
+	display: inline-block;
+}
+
+li#expenses ul li#expenses_radios ul{
+	list-style-type: none;
+	display: inline-block;
+}
+
+li#expenses ul li.radio input{
+	font-size: 0.5em;
+	margin: 0;
+	padding: 0;
+	width: 30px;
+}
+
+
+/*allowances*/
+
+/*li#allowances div#personal_allowances{
+	margin-left: 5%;
+}*/
+
+li#allowances div#personal_allowances img#jessica{
+	margin-left: 38%;
+}
+
+li#allowances div#personal_allowances img#adam{
+	margin-left: 38%;
+}
+
+li#allowances ul{
+	list-style-type: none;
+	margin-left: 15%;
+	margin-bottom: 7%;
+	display: flex;
+	-webkit-padding-start: 0px;
+}
+
+li#allowances li.security_img{
+	margin-left: 5%;
+	cursor: pointer;
+}
+
+li#allowances li.security_img img{
+	cursor: pointer;
+}
+
+div#pay_all p{
+	text-align: center;
+	font-size: 0.5em;
+	font-family: Gotham;
+	font-weight: lighter;
+}
+
+div#pay_all button img{
+	width: 60%;
+	text-align: center;
 }
