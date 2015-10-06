@@ -26,8 +26,8 @@
 			<p>READY TO BOARD</p>
 			<ul>
 				<li><img src="./img/craig.png"/></li>
-				<li id="picker" class="faded"><img src="./img/jessica.png"/></li>
-				<li id="picker" class="faded"><img src="./img/adam.png"/></li>
+				<li style="opacity:0.3"><img src="./img/jessica.png"/></li>
+				<li style="opacity:0.3"><img src="./img/adam.png"/></li>
 			</ul>
 		</div>
 		<div class="container">
@@ -72,8 +72,8 @@
 							<label class="fs-field-label fs-anim-upper" for="q4">These travel plans apply to:</label>
 							<ul id="plans" class="fs-anim-lower">
 								<li class="faded"><img src="./img/craig.png"/></li>
-								<li class="faded"><img src="./img/jessica.png"/></li>
-								<li class="faded"><img src="./img/adam.png"/></li>
+								<li class="faded1"><img src="./img/jessica.png"/></li>
+								<li class="faded2"><img src="./img/adam.png"/></li>
 							</ul>
 						</li>
 
@@ -105,9 +105,9 @@
 							<input class="fs-anim-lower" id="q1" name="q1" type="email" placeholder="address for drop off">
 							<label class="fs-field-label fs-anim-upper" for="q4">These travel plans apply to:</label>
 							<ul id="plans" class="fs-anim-lower">
-								<li ><img src="./img/craig.png"/ class="faded"></li>
-								<li ><img src="./img/jessica.png"/ class="faded"></li>
-								<li ><img src="./img/adam.png"/ class="faded"></li>
+								<li class="faded"><img src="./img/craig.png"/></li>
+								<li class="faded1"><img src="./img/jessica.png"/></li>
+								<li class="faded2"><img src="./img/adam.png"/></li>
 							</ul>
 						</li>
 
@@ -130,9 +130,9 @@
 							<input class="fs-anim-lower" id="q1" name="q1" type="email" placeholder="address for pick up">
 							<label class="fs-field-label fs-anim-upper" for="q4">These travel plans apply to:</label>
 							<ul id="plans" class="fs-anim-lower">
-								<li  id="picker"><img src="./img/craig.png"/></li>
-								<li  id="picker"><img src="./img/jessica.png"/></li>
-								<li  id="picker"><img src="./img/adam.png"/></li>
+								<li class="faded"><img src="./img/craig.png"/></li>
+								<li class="faded1"><img src="./img/jessica.png"/></li>
+								<li class="faded2"><img src="./img/adam.png"/></li>
 							</ul>
 						</li>
 
@@ -274,11 +274,8 @@
 		<script src="js/classie.js"></script>
 		<script src="js/selectFx.js"></script>
 		<script src="js/fullscreenForm.js"></script>
-		<script>
-			$("#picker").click(function(){
-    		$(this).toggleClass("selected");
-			});
-		</script>
+		<script src="js/jquery-2.1.4.js"></script>
+		<script src="js/picker.js"></script>
 		<script>
 			(function() {
 				var formWrap = document.getElementById( 'fs-form-wrap' );

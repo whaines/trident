@@ -201,6 +201,7 @@ ul.header-menu {
 	font-size: 0.75em;
 	font-weight: normal;
 	text-align: center;
+	font-family: Gotham;
 }
 
 .fs-anim-lower{
@@ -393,17 +394,27 @@ label.fs-anim-lower.customCheck {
 
 /*picker states*/
 
-.faded{
+.faded, .faded1, .faded2{
 	opacity: 0.3;
 	cursor: pointer;
 }
 
-.faded:hover{
-	opacity: 1;
+.faded:hover, .faded1:hover, .faded2:hover{
+	opacity: 0.5;
 }
 
 .selected{
 	opacity: 1;
+}
+
+.bg_opacity{
+	background-color: rgba(255, 255, 255, 0.3);
+	border-radius: 5px;
+}
+
+.no_bg_opacity{
+	background-color: rgba(255, 255, 255, 0);
+	border-radius: 5px;
 }
 
 
@@ -489,15 +500,6 @@ li#transportation ul{
 li#transportation ul li.security_img{
 	display: inline-block;
 	width: 30%;
-}
-
-li#transportation ul li input#passportPicture{
-	width: 0.1px;
-	height: 0.1px;
-	opacity: 0;
-	overflow: hidden;
-	position: absolute;
-	z-index: -1;
 }
 
 li#transportation ul li label img{
@@ -598,9 +600,6 @@ li#expenses ul li.radio input{
 
 /*allowances*/
 
-/*li#allowances div#personal_allowances{
-	margin-left: 5%;
-}*/
 
 li#allowances div#personal_allowances img#jessica{
 	margin-left: 38%;

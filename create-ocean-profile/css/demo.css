@@ -366,3 +366,93 @@ label.fs-anim-lower.customCheck {
 #file {
     display:none;
 }
+
+
+/*picker states*/
+
+.faded, .faded1, .faded2{
+	opacity: 0.3;
+	cursor: pointer;
+}
+
+.faded:hover, .faded1:hover, .faded2:hover{
+	opacity: 0.5;
+}
+
+.selected{
+	opacity: 1;
+}
+
+.bg_opacity{
+	background-color: rgba(255, 255, 255, 0.3);
+	border-radius: 5px;
+}
+
+
+/*section style*/
+
+
+div#facebook{
+	text-align: center;
+}
+
+div#facebook p{
+	font-size: 0.3em;
+	margin-top: 0.2em;
+}
+
+div#facebook img{
+	width: 80%;
+}
+
+li#security ul{
+	list-style-type: none;
+	position: relative;
+	padding-left: 30px;
+}
+
+li#security ul a li.security_img{
+	display: inline-block;
+	width: 30%;
+}
+
+li#security ul a li input#passportPicture{
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+
+li#security ul a li label img{
+	height: 60%;
+	width: 100%;
+	cursor: pointer;
+}
+
+li#accessibility ul{
+	list-style-type: none;
+	position: relative;
+	padding-left: 30px;
+}
+
+li#accessibility ul li.security_img{
+	display: inline-block;
+	width: 30%;
+}
+
+li#accessibility ul li input#passportPicture{
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+
+li#accessibility ul li label img{
+	height: 60%;
+	width: 100%;
+	cursor: pointer;
+}
