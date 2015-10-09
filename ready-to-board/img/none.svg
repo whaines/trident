@@ -1,29 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="236px" height="184px" viewBox="0 0 236 184" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+<svg width="162px" height="162px" viewBox="0 0 162 162" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
     <!-- Generator: Sketch 3.3.3 (12081) - http://www.bohemiancoding.com/sketch -->
-    <title>none + Oval 153 + Oval 153 Copy + Oval 153 Copy 2</title>
+    <title>none</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
-    <g id="READY-TO-BOARD" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
-        <g id="Ocean-Profile-Set-Up-08-Copy-2" sketch:type="MSArtboardGroup" transform="translate(-999.000000, -305.000000)">
-            <g id="none-+-Oval-153-+-Oval-153-Copy-+-Oval-153-Copy-2" sketch:type="MSLayerGroup" transform="translate(999.000000, 305.000000)">
-                <g id="none">
-                    <g id="medical-needs">
-                        <g id="Upload-Profile-Photo-+-noun_54985_cc-+-Oval-255-Copy-+-Rectangle-64-Copy-2">
-                            <g id="Upload-Profile-Photo-+-noun_54985_cc-+-Oval-255-Copy" transform="translate(101.786260, 24.352941)" font-weight="260" font-family="Gotham" fill="#FFFFFF" font-size="12.6" sketch:alignment="middle" sketch:type="MSTextLayer">
-                                <text id="None">
-                                    <tspan x="0.114022137" y="10">None</tspan>
-                                </text>
-                            </g>
-                            <rect id="Rectangle-64-Copy-2" stroke="#FFFFFF" stroke-width="0.9" sketch:type="MSShapeGroup" x="0" y="0" width="236" height="184" rx="9"></rect>
-                        </g>
-                    </g>
-                </g>
-                <g id="Oval-153-+-Oval-153-Copy-+-Oval-153-Copy-2" transform="translate(68.000000, 92.000000)" fill="#FFFFFF" sketch:type="MSShapeGroup">
-                    <circle id="Oval-153" cx="10" cy="10" r="10"></circle>
-                    <circle id="Oval-153-Copy" cx="50" cy="10" r="10"></circle>
-                    <circle id="Oval-153-Copy-2" cx="90" cy="10" r="10"></circle>
-                </g>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Ocean-Profile-Set-Up-08-Copy-2" sketch:type="MSArtboardGroup" transform="translate(-1016.000000, -302.000000)" fill="#FFFFFF">
+            <g id="none" sketch:type="MSLayerGroup" transform="translate(1016.000000, 302.000000)">
+                <path d="M81,162 C125.735065,162 162,125.735065 162,81 C162,36.2649353 125.735065,0 81,0 C36.2649353,0 0,36.2649353 0,81 C0,125.735065 36.2649353,162 81,162 Z" id="Oval-95" fill-opacity="0.15" sketch:type="MSShapeGroup"></path>
+                <path d="M107.912774,50.5872257 C93.1464734,35.8209248 68.8535266,35.8209248 54.0872257,50.5872257 C39.3209248,65.3535266 39.3209248,89.6464734 54.0872257,104.412774 C68.8535266,119.179075 93.1464734,119.179075 107.912774,104.412774 C122.679075,89.6464734 122.679075,65.8298589 107.912774,50.5872257 L107.912774,50.5872257 Z M100.76779,57.73221 C110.770768,67.7351881 111.723433,83.4541536 103.625784,94.4097962 L64.0902038,54.397884 C75.5221787,46.3002351 90.7648119,47.729232 100.76779,57.73221 L100.76779,57.73221 Z M60.7558777,97.7441223 C50.7528997,87.7411442 49.8002351,72.0221787 57.897884,61.0665361 L97.9097962,101.078448 C86.001489,109.176097 70.7588558,107.7471 60.7558777,97.7441223 L60.7558777,97.7441223 Z" id="Shape" sketch:type="MSShapeGroup"></path>
             </g>
         </g>
     </g>

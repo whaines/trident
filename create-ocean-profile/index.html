@@ -32,6 +32,8 @@
 				<form id="myform" class="fs-form fs-form-full" autocomplete="off">
 					<ol class="fs-fields">
 
+
+
 						<!-- create the user's account -->
 						<li>
 							<label class="fs-field-label fs-anim-upper" for="q1">Join the Ocean</label>
@@ -53,28 +55,34 @@
 							<input class="fs-anim-lower" id="q1" name="q1" type="text" placeholder="Last name"/>
 						</li>
 
+
+						<!-- gender and birthday -->
+						<li id="accessibility">
+							<label class="fs-field-label fs-anim-upper" for="q3">Your gender and birthday, too?</label>
+							<ul>
+									<li class="security_img">
+										<label class="fs-anim-lower" id="passport_label" style="margin-left:35%">Male</label>
+										<label class="fs-anim-lower"><img class="hvr-fade"  src="./img/male.svg"/></label>
+									</li>
+									<li class="security_img">
+										<label class="fs-anim-lower" id="passport_label" style="margin-left:30%">Female</label>
+										<label class="fs-anim-lower"><img class="hvr-fade"  src="./img/female.svg"/></label>
+									</li>
+									<li class="security_img">
+										<label class="fs-anim-lower" id="passport_label" style="margin-left:27%">Custom</label>
+										<label class="fs-anim-lower"><img class="hvr-fade"  src="./img/custom.svg"/></label>
+									</li>
+							</ul>
+							<input class="fs-anim-lower" id="q3" name="q3" type="date"/>
+						</li>
+
+
 						<!-- contact info -->
 						<li style="margin-top: 10%">
 							<label class="fs-field-label fs-anim-upper" for="q2" data-info="We'll use it sparingly, we promise.">What’s your phone number?</label>
 							<input class="fs-anim-lower" id="q2" name="q2" type="tel" placeholder="Phone number" />
 						</li>
 
-						<!-- gender and birthday -->
-						<li id="accessibility">
-							<label class="fs-field-label fs-anim-upper" for="q3">Your gender and birthday, too?</label>
-							<ul style="margin-bottom: 7%;">
-									<li class="security_img">
-										<label class="fs-anim-lower"><img class="hvr-fade" id="opacity" onclick="clickFade()" src="./img/male.svg"/></label>
-									</li>
-									<li class="security_img">
-										<label class="fs-anim-lower"><img class="hvr-fade" id="opacity" onclick="clickFade()" src="./img/female.svg"/></label>
-									</li>
-									<li class="security_img">
-										<label class="fs-anim-lower"><img class="hvr-fade" id="opacity" onclick="clickFade()" src="./img/custom.svg"/></label>
-									</li>
-							</ul>
-							<input class="fs-anim-lower" id="q3" name="q3" type="date"/>
-						</li>
 
 						<!-- address  -->
 						<li>
@@ -93,47 +101,73 @@
 							<input class="fs-anim-lower" id="q4" name="q4" type="tel" placeholder="Phone number" />
 						</li>
 
+
 						<!-- accessibility -->
 						<li id="accessibility">
 							<label class="fs-field-label fs-anim-upper" for="q4">Anything else we should know?</label>
-							<ul style="margin-bottom: 7%;">
+							<ul>
 									<li class="security_img">
-										<label class="fs-anim-lower"><img class="hvr-fade" id="opacity" onclick="clickFade()" src="./img/handicap.svg"/></label>
+										<label class="fs-anim-lower" id="passport_label" style="margin-left:25%">Handicap</label>
+										<label class="fs-anim-lower"><img class="hvr-fade"  src="./img/handicap.svg"/></label>
 									</li>
 									<li class="security_img">
-										<label class="fs-anim-lower"><img class="hvr-fade" id="opacity" onclick="clickFade()" src="./img/dietary.svg"/></label>
+										<label class="fs-anim-lower" id="passport_label" style="margin-left:10%">Dietary Needs</label>
+										<label class="fs-anim-lower"><img class="hvr-fade"  src="./img/dietary.svg"/></label>
 									</li>
 									<li class="security_img">
-										<label class="fs-anim-lower"><img class="hvr-fade" id="opacity" onclick="clickFade()" src="./img/medical.svg"/></label>
+										<label class="fs-anim-lower" id="passport_label" style="margin-left:10%">Medical Needs</label>
+										<label class="fs-anim-lower"><img class="hvr-fade"  src="./img/medical.svg"/></label>
 									</li>
 							</ul>
 							<input class="fs-anim-lower" id="q1" name="q1" type="email" placeholder="please enter more information here">
 						</li>
 
+
 						<!-- security -->
 						<li id="security">
 							<label class="fs-field-label fs-anim-upper" for="q4">Finally, your photo documentation:</label>
-							<ul style="list-style-type: none; position: relative;">
+							<ul id="security_icons">
 								<a href="">
 									<li class="security_img">
 										<input class="fs-anim-lower" id="passportPicture" type="file">
-										<label class="fs-anim-lower" for="passportPicture"><img class="hvr-fade" id="opacity" onclick="clickFade()" src="./img/passport.svg"/></label>
+										<label class="fs-anim-lower" id="passport_label">Passport photo</label>
+										<label class="fs-anim-lower" for="passportPicture"><img class="hvr-fade"  src="./img/passport_1.svg"/></label>
 									</li>
 								</a>
 								<a href="">
 									<li class="security_img">
-										<input class="fs-anim-lower" id="passportPicture" type="file">
-										<label class="fs-anim-lower" for="passportPicture"><img class="hvr-fade" id="opacity" onclick="clickFade()" src="./img/security.svg"/></label>
+										<input class="fs-anim-lower" id="securityPicture" type="file">
+										<label class="fs-anim-lower" id="passport_label">Security photo</label>
+										<label class="fs-anim-lower" for="securityPicture"><img class="hvr-fade"  src="./img/security_1.svg"/></label>
 									</li>
 								</a>
 								<a href="">
 									<li class="security_img">
-										<input class="fs-anim-lower" id="passportPicture" type="file">
-										<label class="fs-anim-lower" for="passportPicture"><img class="hvr-fade" id="opacity" onclick="clickFade()" src="./img/profile.svg"/></label>
+										<input class="fs-anim-lower" id="profilePicture" type="file">
+										<label class="fs-anim-lower" id="passport_label">Profile photo</label>
+										<label class="fs-anim-lower" for="profilePicture"><img class="hvr-fade"  src="./img/profile_1.svg"/></label>
 									</li>
 								</a>
 							</ul>
+							<!-- <ul id="security_pics" style="list-style-type: none; position: relative; margin-top: 5%;">
+								<a href="">
+									<li class=" hiddenPic">
+										<label class="fs-anim-lower" style="margin-top:5%;"><img class="hvr-fade" src="./img/passport_photo.jpg"/></label>
+									</li>
+								</a>
+								<a href="">
+									<li class=" hiddenPic">
+										<label class="fs-anim-lower" style="margin-top:5%;"><img class="hvr-fade" src="./img/passport_photo.jpg"/ class="hiddenPic"></label>
+									</li>
+								</a>
+								<a href="">
+									<li class=" hiddenPic">
+										<label class="fs-anim-lower" style="margin-top:5%;"><img class="hvr-fade" src="./img/passport_photo.jpg"/ class="hiddenPic"></label>
+									</li>
+								</a>
+							</ul> -->
 						</li>
+
 
 
 					</ol><!-- /fs-fields -->
@@ -147,6 +181,14 @@
 		<script src="js/fullscreenForm.js"></script>
 		<script src="js/jquery-2.1.4.js"></script>
 		<script src="js/picker.js"></script>
+
+		<!-- <script>
+			$(document).ready(function(){
+				$("#passportPicture").click(function(event) {
+					alert("Clicked passport picture");
+				});
+			});
+		</script> -->
 
 		<script>
 			(function() {
