@@ -23,11 +23,11 @@
 	</head>
 	<body>
 		<div class="headerBar">
-			<p>READY TO BOARD</p>
+			<!-- <p>READY TO BOARD</p> -->
 			<ul>
-				<li><img src="./img/craig.png"/></li>
-				<li style="opacity:0.3"><img src="./img/jessica.png"/></li>
-				<li style="opacity:0.3"><img src="./img/adam.png"/></li>
+				<li class="faded selected"><img src="./img/craig.png"/></li>
+				<li class="faded1"><img src="./img/jessica.png"/></li>
+				<li class="faded2"><img src="./img/adam.png"/></li>
 			</ul>
 		</div>
 		<div class="container">
@@ -51,6 +51,15 @@
 					</div>
 
 					<ol class="fs-fields">
+
+
+						<!-- flight info -->
+
+						<li style="margin-top:5%;">
+							<label class="fs-field-label fs-anim-upper" for="q1">Flying? Enter itinerary number here:</label>
+							<input class="fs-anim-lower" id="q1" name="q1" type="email" placeholder="intinerary number (#)" />
+							<div class="fs-anim-lower" style="text-align:center; margin-top:10%;"><img style="width:60%" src="./img/virgin.svg"/></div>
+						</li>
 
 
 						<!-- transportation to port -->
@@ -78,15 +87,6 @@
 								<li class="faded1"><img src="./img/jessica.png"/></li>
 								<li class="faded2"><img src="./img/adam.png"/></li>
 							</ul>
-						</li>
-
-
-						<!-- flight info -->
-
-						<li>
-							<label class="fs-field-label fs-anim-upper" for="q1">Flying? Enter itinerary number here:</label>
-							<input class="fs-anim-lower" id="q1" name="q1" type="email" placeholder="intinerary number (#)" />
-							<div class="fs-anim-lower" style="text-align:center; margin-top:10%;"><img style="width:60%" src="./img/virgin.svg"/></div>
 						</li>
 
 
@@ -189,7 +189,7 @@
 
 					<!-- tips -->
 
-					<li id="transportation">
+					<!-- <li id="transportation">
 						<label class="fs-field-label fs-anim-upper" for="q4">Would you like to prepay your tips?</label>
 						<ul style="margin-bottom: 7%;">
 								<li class="security_img">
@@ -204,9 +204,9 @@
 						</ul>
 						<div id="tips" class="fs-anim-upper">
 							<p>or</p>
-							<button><img src="./img/tips_button.png" class="hvr-fade"/></button>
+							<button><img src="./img/tips_button.svg" class="hvr-fade"/></button>
 						</div>
-					</li>
+					</li> -->
 
 
 					<!--Payment info-->
@@ -236,7 +236,7 @@
 							<div class="fs-anim-lower" id="credit_card">
 								<img src="./img/credit_card.png"/ style="margin-bottom: 3%">
 							</div>
-							<div class="fs-anim-upper container1" id="verify">
+							<div class="fs-anim-upper" id="verify">
 								<a href="#openModal"><img src="./img/verify_button.png" class="hvr-fade"/></a>
 							</div>
 					</li>
@@ -252,7 +252,7 @@
 									<a href="#openBandModal"><label class="fs-anim-lower"><img src="./img/blue_sport.png"/></label></a>
 								</li>
 								<li class="security_img">
-									<label class="fs-anim-lower"><img src="./img/premium_band.png"/></label>
+									<label class="fs-anim-lower"><img src="./img/pendant.png" style="width:65%"/></label>
 								</li>
 								<li class="security_img">
 									<label class="fs-anim-lower"><img src="./img/cuff.png"/></label>
@@ -266,7 +266,6 @@
 								<li class="hvr-fade">Prada</li>
 								<li class="hvr-fade">Gucci</li>
 								<li class="hvr-fade">Louis Vuitton</li>
-								<li class="hvr-fade">Tiffany's</li>
 							</ul>
 						</div>
 					</li>

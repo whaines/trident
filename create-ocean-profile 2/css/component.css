@@ -24,108 +24,6 @@
 	margin: 0;
 }
 
-div.headerBar{
-	height: 5%;
-	width: 30%;
-	margin-left: 35%;
-	margin-right: 35%;
-	text-align: center;
-}
-
-div.headerBar p{
-	font-family: Gotham;
-	text-align: center;
-	font-weight: normal;
-	color: rgba(255, 255, 255, 0.5);
-}
-
-div.headerBar ul{
-	list-style-type: none;
-	padding-right: 10%;
-	text-align: center;
-}
-
-div.headerBar ul li{
-	text-align: center;
-	display: inline-block;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-div.headerBar ul li img{
-	height: 60%;
-	width:60%;
-}
-
-
-li#transportation ul#plans{
-	list-style-type: none;
-	text-align: center;
-	padding-right: 3%;
-}
-
-li#transportation ul#plans li{
-	text-align: center;
-	display: inline-block;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-li#transportation ul#plans li img{
-	height: 60%;
-	width:60%;
-}
-
-
-
-li#celebrations ul{
-	list-style-type: none;
-	padding-right: 10%;
-	text-align: center;
-}
-
-li#celebrations ul li{
-	text-align: center;
-	display: inline-block;
-}
-
-li#celebrations ul#plans{
-	list-style-type: none;
-	text-align: center;
-	padding-right: 3%;
-}
-
-li#celebrations ul#plans li{
-	text-align: center;
-	display: inline-block;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-li#expenses ul{
-	list-style-type: none;
-	margin-bottom: 2%;
-	display: inline-block;
-	-webkit-padding-start: 0;
-}
-
-li#expenses ul li#expenses_radios ul{
-	list-style-type: none;
-	display: inline-block;
-}
-
-li#expenses ul li.radio input{
-	font-size: 0.5em;
-	margin: 0;
-	padding: 0;
-	width: 30px;
-}
-
-li#expenses hr{
-	margin-bottom: 2%;
-	width: 100%;
-}
-
 /* Form */
 .fs-form {
 	position: relative;
@@ -139,7 +37,7 @@ li#expenses hr{
 
 /* Views (fullscreen and overview)*/
 .fs-form-full {
-	top: 5%;
+	top: 12%;
 	margin: 0 auto;
 	width: 70%;
 }
@@ -281,12 +179,12 @@ button.fs-continue,
 
 .fs-fields > li label.fs-field-label {
 	display: block;
-	padding: 0 0 0.5em 0;
+	padding: 0 5px 2em 0;
 	color: #fff;
+	font-weight: 500;
 	pointer-events: none;
 	text-align: center;
-	font-size: 0.6em;
-	font-weight: bold;
+	font-size: 0.75em;
 }
 
 .fs-form-full .fs-fields > li label[data-info]::after {
@@ -343,6 +241,7 @@ button.fs-continue,
 
 /* Inputs */
 .fs-fields input {
+	display: block;
 	margin: 0 0 1em 0;
 	width: 100%;
 	border: none;
@@ -537,32 +436,32 @@ button.fs-continue,
 /* placeholder */
 .fs-fields input::-webkit-input-placeholder,
 .fs-fields textarea::-webkit-input-placeholder {
-	color: rgba(255,255,255,0.25);
-	font-size: 20px;
+	color: rgba(255,255,255,1);
+	font-size: 0.8em;
 	text-align: center;
 	padding-top: 10px;
 }
 
 .fs-fields input:-moz-placeholder,
 .fs-fields textarea:-moz-placeholder {
-	color: rgba(0,0,0,0.25);
-	font-size: 20px;
+	color: rgba(0,0,0,1);
+	font-size: 0.8em;
 	text-align: center;
 	padding-top: 10px;
 }
 
 .fs-fields input::-moz-placeholder,
 .fs-fields textarea::-moz-placeholder {
-	color: rgba(0,0,0,0.25);
-	font-size: 20px;
+	color: rgba(0,0,0,1);
+	font-size: 0.8em;
 	text-align: center;
 	padding-top: 10px;
 }
 
 .fs-fields input:-ms-input-placeholder,
 .fs-fields textarea:-ms-input-placeholder {
-	color: rgba(0,0,0,0.25);
-	font-size: 20px;
+	color: rgba(0,0,0,1);
+	font-size: 0.8em;
 	text-align: center;
 	padding-top: 10px;
 }
@@ -1022,7 +921,39 @@ input[type=text]::-ms-clear {
 	}
 }
 
-hr{
-	border-width: 1px;
-	width: 70%;
+
+/*modal*/
+
+.modalDialog1 {
+    position: fixed;
+    font-family: Gotham;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    /*background: rgba(0, 0, 0, 0.6);*/
+    z-index: 99999;
+    opacity:0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+}
+.modalDialog1:target {
+    opacity:1;
+    pointer-events: auto;
+}
+.modalDialog1 > div {
+    width: 50%;
+    position: relative;
+    margin: 5% auto;
+    padding: 5px 20px 0px 20px;
+    border-radius: 5px;
+    background: #204D80;
+}
+
+.modalDialog1 a.close img{
+	margin-top: 2%;
+	width: 100%;
+	margin-bottom: 2%;
 }

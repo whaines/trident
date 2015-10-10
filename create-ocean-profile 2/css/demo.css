@@ -177,7 +177,7 @@ ul.header-menu {
 }
 .fs-message-error {
 	color: rgba(0,0,0,0.87);
-	bottom: 86%;
+	bottom: 90%;
 }
 .fs-fields [required] {
 	margin: 0 0 1em 0;
@@ -190,7 +190,6 @@ ul.header-menu {
 	font-size: 0.75em;
 	font-weight: normal;
 	text-align: center;
-	font-family: Gotham;
 }
 
 .fs-anim-lower{
@@ -209,7 +208,7 @@ select {
 }
 .fs-fields > li label.fs-field-label {
 	/* color: rgba(0,0,0,0.57); */
-	color: rgba(255,255,255,0.85);
+	color: rgba(255,255,255);
 }
 .fs-form-overview select {
     color: white;
@@ -324,9 +323,8 @@ textarea {
 	background-color: none;
 }
 .headerBar p {
-	margin: 0;
 	text-align: center;
-	padding: 25px 0 0 0;
+	margin: 25px 0 0 0;
 }
 .headerNav {
 	display: block;
@@ -368,93 +366,69 @@ label.fs-anim-lower.customCheck {
 #file {
     display:none;
 }
-/* unique class for radio unordered lists */
-.radioItem {
 
-}
-.radioItem p {
-	font-size: 0.5em;
-}
 
-li#picker{
+/*picker states*/
+
+.faded, .faded1, .faded2{
 	opacity: 0.3;
+	cursor: pointer;
 }
 
-li#picker:hover{
+.faded:hover, .faded1:hover, .faded2:hover{
+	opacity: 0.5;
+}
+
+.selected{
 	opacity: 1;
+	border-radius: 100px;
 }
 
-li#shopping_bag div{
-	text-align:center;
-	font-weight: lighter;
+.bg_opacity{
+	background-color: rgba(255, 255, 255, 0.3);
+	border-radius: 100px;
+	border: 1px white;
 }
 
-li#shopping_bag div img{
-	width: 70%;
-}
 
-li#shopping_bag div#medallion{
-	margin-bottom: 3%;
-}
+/*section style*/
 
-li#shopping_bag label#shopping_bag_label{
-	text-align: left;
-	margin-left: 14.5%;
-}
 
-li#expenses label#address{
-	margin-bottom: 4%;
-}
-
-li.expenses_radios ul span img#card_info{
-	margin-left: 18%;
-	margin-top: 8%;
-}
-
-div#payment{
-	margin-top: 15%;
-}
-
-div#credit_card{
-	float: right;
-}
-
-div#summary img{
-	width: 90%;
+div#facebook{
+	margin-top: 3%;
 	text-align: center;
 }
 
-li#thanks label#order_confirmation{
-	margin-top: 13%;
-	margin-bottom: 7%;
-	font-family: Gotham;
-	font-size: 0.5em;
-	font-weight: lighter;
+div#facebook p{
+	font-size: 0.3em;
+	margin-top: 0.2em;
 }
 
-li#thanks div#order_history{
-	margin-left: 6%;
+div#facebook img{
+	margin
+	width: 30%;
 }
 
-li#thanks img#vacay_img{
-	width: 80%;
-	margin-left: 6.5%;
-	margin-right: 6.5%;
-}
 
-li#thanks ul{
+/*security*/
+
+li#security ul#security_icons{
 	list-style-type: none;
 	position: relative;
-	-webkit-padding-start: 0;
+	padding-left: 30px;
 }
 
-li#thanks ul li.security_img{
+li#security ul#security_icons a li.security_img{
 	display: inline-block;
-	width: 30%;
-	text-align: center;
+	width: 25%;
+	margin-left: 3%;
 }
 
-li#thanks ul li input#passportPicture{
+li#security ul#security_icons a li.security_img img:hover{
+	border-radius: 100px;
+}
+
+li#security ul#security_icons a li input#passportPicture{
 	width: 0.1px;
 	height: 0.1px;
 	opacity: 0;
@@ -463,7 +437,108 @@ li#thanks ul li input#passportPicture{
 	z-index: -1;
 }
 
-li#thanks ul li label img{
+li#security ul#security_icons a li.security_img label#passport_label{
+	font-size: 0.4em;
+	text-align: center;
+	margin-left: 10%;
+	color: white;
+	font-family: Gotham;
+}
+
+li#security ul#security_icons a li label img{
 	height: 60%;
 	width: 100%;
+	cursor: pointer;
+	border-radius: 100px;
+}
+
+
+li#security ul#security_pics{
+	list-style-type: none;
+	position: relative;
+	padding-left: 30px;
+}
+
+li#security ul#security_pics a li.hiddenPic{
+	display: inline-block;
+	width: 30%;
+	/*visibility: hidden;*/
+}
+
+li#security ul#security_pics a li.hiddenPic label img{
+	height: 60%;
+	width: 80%;
+	margin-left: 10%;
+	border: 1px solid white;
+	border-radius: 5px;
+}
+
+.visiblePic{
+	display: inline-block;
+	width: 30%;
+	visibility: visible;
+}
+
+
+/*accessibility*/
+
+li#accessibility ul{
+	list-style-type: none;
+	position: relative;
+	padding-left: 30px;
+	margin-bottom: 15%;
+}
+
+li#accessibility ul li.security_img{
+	display: inline-block;
+	width: 25%;
+	margin-left: 3%;
+}
+
+li#accessibility ul li.security_img#male{
+	display: inline-block;
+	width: 25%;
+	margin-left: 3%;
+	opacity: 1;
+}
+
+li#accessibility ul li.security_img label#passport_label{
+	font-size: 0.4em;
+	text-align: center;
+}
+
+li#accessibility ul li input#passportPicture{
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+
+li#accessibility ul li label img{
+	height: 60%;
+	width: 100%;
+	cursor: pointer;
+	border-radius: 100px;
+}
+
+li#accessibility ul li label img:hover{
+	border-radius: 100px;
+}
+
+li#accessibility input::-webkit-input-placeholder{
+	color: rgba(255,255,255,0.6);
+	font-size: 0.8em;
+	text-align: center;
+	padding-top: 10px;
+}
+
+
+
+li#emergency input::-webkit-input-placeholder{
+	color: rgba(255,255,255,0.6);
+	font-size: 0.8em;
+	text-align: center;
+	padding-top: 10px;
 }
