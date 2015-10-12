@@ -1046,7 +1046,7 @@ input[type=text]::-ms-clear {
     pointer-events: auto;
 }
 .modalDialog2 > div {
-    width: 70%;
+    width: 80%;
     position: relative;
     margin: 5% auto;
     padding: 5px 20px 13px 20px;
@@ -1073,4 +1073,5 @@ input[type=text]::-ms-clear {
 .modalDialog2 a.close img{
 	margin-bottom: 3%;
 	width: 30%;
+	margin-left: 18.5%;
 }

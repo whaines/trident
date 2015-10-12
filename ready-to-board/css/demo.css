@@ -418,6 +418,38 @@ label.fs-anim-lower.customCheck {
 }
 
 
+/* flight */
+
+li#flight{
+	margin-top: 13%;
+}
+
+li#flight div#flight_info input{
+	margin-bottom: 0.3em;
+}
+
+li#flight div#flight_info a{
+	font-size: 0.4em;
+	text-align:center;
+	cursor: pointer;
+	margin-left:36%;
+}
+
+li#flight div.virgin{
+	visibility: hidden;
+}
+
+.visible{
+	display:block;
+	position: relative;
+	visibility: visible;
+	-webkit-transition: opacity 2.0s ease-in;
+       -moz-transition: opacity 2.0s ease-in;
+         -o-transition: opacity 2.0s ease-in;
+                                  opacity: 1;
+}
+
+
 /* payment */
 
 div#payment{
@@ -497,6 +529,12 @@ li#transportation ul li label img{
 	border-radius: 100px;
 }
 
+li#transportation ul#bandz li{
+	display: inline-block;
+	width: 25%;
+	margin-left: 3%;
+}
+
 li#transportation ul#bandz li label img{
 	width: 80%;
 	margin-left: 15%;
@@ -523,7 +561,7 @@ li#transportation div#brands ul li#selected_brand{
 li#transportation ul#plans{
 	list-style-type: none;
 	text-align: center;
-	padding-right: 10%;
+	padding-right: 9%;
 }
 
 li#transportation ul#plans li{
@@ -625,4 +663,5 @@ div#pay_all p{
 div#pay_all button img{
 	width: 60%;
 	text-align: center;
+	margin-left: 8%;
 }

@@ -460,24 +460,18 @@ li#security ul#security_pics{
 	padding-left: 30px;
 }
 
-li#security ul#security_pics a li.hiddenPic{
-	display: inline-block;
+li#security ul#security_pics a li{
+	display: none;
 	width: 30%;
 	/*visibility: hidden;*/
 }
 
-li#security ul#security_pics a li.hiddenPic label img{
+li#security ul#security_pics a li label img{
 	height: 60%;
 	width: 80%;
 	margin-left: 10%;
 	border: 1px solid white;
 	border-radius: 5px;
-}
-
-.visiblePic{
-	display: inline-block;
-	width: 30%;
-	visibility: visible;
 }
 
 
@@ -529,7 +523,7 @@ li#accessibility ul li label img:hover{
 }
 
 li#accessibility input::-webkit-input-placeholder{
-	color: rgba(255,255,255,0.6);
+	color: rgba(255,255,255,1);
 	font-size: 0.8em;
 	text-align: center;
 	padding-top: 10px;
@@ -538,8 +532,20 @@ li#accessibility input::-webkit-input-placeholder{
 
 
 li#emergency input::-webkit-input-placeholder{
-	color: rgba(255,255,255,0.6);
+	color: rgba(255,255,255,1);
 	font-size: 0.8em;
 	text-align: center;
 	padding-top: 10px;
+}
+
+
+/* Set profile images to hidden by default */
+.hiddenPassportImg{
+	display: none;
+}
+.hiddenSecurityImg{
+	display: none;
+}
+.hiddenProfileImg{
+	display: inline-block;
 }

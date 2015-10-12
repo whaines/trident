@@ -51,6 +51,23 @@
 
 						<li id="expenses">
 							<label class="fs-field-label fs-anim-upper" for="q4">Shipping</label>
+							<ul style="margin-bottom: 9%; margin-left: 5%;">
+									<li class="security_img">
+										<label class="fs-anim-lower" id="passport_label" style="margin-left:6%">Fedex Ground -- FREE</label>
+										<label class="fs-anim-lower"><img class="hvr-fade " src="./img/3_5days.svg"/></label>
+									</li>
+									<li class="security_img">
+										<label class="fs-anim-lower" id="passport_label" style="margin-left:12%">Fedex Two Day - $18</label>
+										<label class="fs-anim-lower"><img class="hvr-fade " src="./img/2_3days.svg"/></label>
+									</li>
+									<li class="security_img">
+										<label class="fs-anim-lower" id="passport_label" style="margin-left:10%">Fedex Single Day - $25</label>
+										<label class="fs-anim-lower"><img class="hvr-fade " src="./img/1day.svg"/></label>
+									</li>
+							</ul>
+							<div class="fs-anim-upper" id="edit_address"><img src="./img/craig_edit_address.png" class="hvr-fade" style="width: 40%;"/></div>
+
+							<!-- <label class="fs-field-label fs-anim-upper" for="q4">Shipping</label>
 							<div style="margin-left:10%;">
 									<div class="expenses_radios">
 										<label class="fs-anim-lower"><img src="./img/craig_address.png" style="margin-bottom: 4%"/></label>
@@ -75,7 +92,7 @@
 												</li>
 											</ul>
 										</div>
-							<hr class="fs-anim-upper">
+							<!-- <hr class="fs-anim-upper">
 									<div class="expenses_radios">
 										<label class="fs-anim-lower"><img src="./img/jessica_address.png" style="margin-bottom: 4%"/></label>
 										<ul class="fs-anim-lower">
@@ -122,8 +139,7 @@
   											</label>
 											</li>
 										</ul>
-									</div>
-							</div>
+									</div> -->
 						</li>
 
 
@@ -141,7 +157,7 @@
 														<span style="font-family: Gotham ;font-size: 0.5em;">USE CARD ON FILE</span>
 												</label>
 											</li>
-											<span><img src="./img/card_info.png"/ id="card_info"></span>
+											<span><img src="./img/card_info.png"/ id="card_info" style="margin-top:2%; margin-left:18%"></span>
 											<li class="radio">
 												<label>
 													<input type="radio"   value="option1">
@@ -202,6 +218,7 @@
 		<script src="js/selectFx.js"></script>
 		<script src="js/fullscreenForm.js"></script>
 		<script src="js/jquery-2.1.4.js"></script>
+		<script src="js/picker.js"></script>
 		<script>
 			(function() {
 				var formWrap = document.getElementById( 'fs-form-wrap' );

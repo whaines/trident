@@ -50,15 +50,32 @@
 						    </div>
 					</div>
 
+					<div id="openPendantModal" class="modalDialog2">
+						    <div>
+									<div><img src="./img/purchase_pendant.png"/ id="sport_band"></div>
+									<a href="#close" class="close"><img src="./img/add_to_cart.svg" class="hvr-fade"/></a>
+						    </div>
+					</div>
+
+					<div id="openCuffModal" class="modalDialog2">
+						    <div>
+									<div><img src="./img/purchase_cuff.png"/ id="sport_band"></div>
+									<a href="#close" class="close"><img src="./img/add_to_cart.svg" class="hvr-fade"/></a>
+						    </div>
+					</div>
+
 					<ol class="fs-fields">
 
 
 						<!-- flight info -->
 
-						<li style="margin-top:10%;">
+						<li id="flight">
 							<label class="fs-field-label fs-anim-upper" for="q1">Flying? Enter itinerary number here:</label>
-							<input class="fs-anim-lower" id="q1" name="q1" type="email" placeholder="intinerary number (#)" />
-							<div class="fs-anim-lower" style="text-align:center; margin-top:10%;"><img style="width:60%" src="./img/virgin.svg"/></div>
+							<div class="fs-anim-lower" id="flight_info">
+								<input class="fs-anim-lower" id="q1" name="q1" type="email" placeholder="intinerary number (#)" />
+								<a>VERIFY FLIGHT INFO</a>
+							</div>
+							<div class="fs-anim-upper virgin"><img src="./img/virgin.png"/ style="width: 60%; margin-left:18%; margin-top:2%;"></div>
 						</li>
 
 
@@ -80,7 +97,7 @@
 										<label class="fs-anim-lower"><img class="hvr-fade " src="./img/none.svg"/></label>
 									</li>
 							</ul>
-							<input class="fs-anim-lower" id="q1" name="q1" type="email" placeholder="address for pick up">
+							<input class="fs-anim-lower" id="q1" name="q1" type="email" placeholder="Fort Lauderdale International Airport">
 							<label class="fs-field-label fs-anim-upper" for="q4">These travel plans apply to:</label>
 							<ul id="plans" class="fs-anim-lower">
 								<li class="faded"><img src="./img/craig.png"/></li>
@@ -108,7 +125,7 @@
 										<label class="fs-anim-lower"><img class="hvr-fade " src="./img/none.svg"/></label>
 									</li>
 							</ul>
-							<input class="fs-anim-lower" id="q1" name="q1" type="email" placeholder="address for drop off">
+							<input class="fs-anim-lower" id="q1" name="q1" type="email" placeholder="Fort Lauderdale International Airport">
 							<label class="fs-field-label fs-anim-upper" for="q4">These travel plans apply to:</label>
 							<ul id="plans" class="fs-anim-lower">
 								<li class="faded"><img src="./img/craig.png"/></li>
@@ -136,13 +153,46 @@
 										<label class="fs-anim-lower"><img class="hvr-fade " src="./img/bon_voyage.svg"/></label>
 									</li>
 							</ul>
-							<input class="fs-anim-lower" id="q1" name="q1" type="email" placeholder="address for pick up">
+							<input class="fs-anim-lower" id="q1" name="q1" type="email" placeholder="enter more info here">
 							<label class="fs-field-label fs-anim-upper" for="q4">These travel plans apply to:</label>
 							<ul id="plans" class="fs-anim-lower">
 								<li class="faded"><img src="./img/craig.png"/></li>
 								<li class="faded1"><img src="./img/jessica.png"/></li>
 								<li class="faded2"><img src="./img/adam.png"/></li>
 							</ul>
+						</li>
+
+
+						<!--Payment info-->
+
+						<li id="expenses">
+							<label class="fs-field-label fs-anim-upper" for="q4">Payment Info</label>
+							<div id="payment">
+								<ul id="move_card">
+									<li class="expenses_radios">
+										<ul class="fs-anim-lower" style="padding-left:0px;">
+											<li class="radio">
+												<label>
+													<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+														<span style="font-family: Gotham ;font-size: 0.5em;">USE CARD ON FILE</span>
+												</label>
+											</li>
+											<span><img src="./img/card_info.png"/ id="card_info"></span>
+											<li class="radio">
+												<label>
+													<input type="radio" name="optionsRadios" id="optionsRadios1" value="option2">
+														<span style="font-family: Gotham ;font-size: 0.5em;">ADD NEW CARD</span>
+												</label>
+											</li>
+										</ul>
+									</li>
+								</ul>
+								<div class="fs-anim-lower" id="credit_card">
+									<img src="./img/credit_card.png"/ style="margin-bottom: 3%">
+								</div>
+								<div class="fs-anim-upper" id="verify">
+									<a href="#openModal"><img src="./img/verify_button.png" class="hvr-fade"/></a>
+								</div>
 						</li>
 
 
@@ -209,53 +259,20 @@
 					</li> -->
 
 
-					<!--Payment info-->
-
-					<li id="expenses">
-						<label class="fs-field-label fs-anim-upper" for="q4">Payment Info</label>
-						<div id="payment">
-							<ul id="move_card">
-								<li class="expenses_radios">
-									<ul class="fs-anim-lower" style="padding-left:0px;">
-										<li class="radio">
-											<label>
-												<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
-													<span style="font-family: Gotham ;font-size: 0.5em;">USE CARD ON FILE</span>
-											</label>
-										</li>
-										<span><img src="./img/card_info.png"/ id="card_info"></span>
-										<li class="radio">
-											<label>
-												<input type="radio" name="optionsRadios" id="optionsRadios1" value="option2">
-													<span style="font-family: Gotham ;font-size: 0.5em;">ADD NEW CARD</span>
-											</label>
-										</li>
-									</ul>
-								</li>
-							</ul>
-							<div class="fs-anim-lower" id="credit_card">
-								<img src="./img/credit_card.png"/ style="margin-bottom: 3%">
-							</div>
-							<div class="fs-anim-upper" id="verify">
-								<a href="#openModal"><img src="./img/verify_button.png" class="hvr-fade"/></a>
-							</div>
-					</li>
-
-
 					<!-- Accessories -->
 
 					<li id="transportation">
 						<label class="fs-field-label fs-anim-upper" for="q4" style="padding-bottom: 2em;">Accessories</label>
 						<div>
 							<ul id="bandz" style="margin-bottom: 5%;">
-								<li class="security_img">
+								<li>
 									<a href="#openBandModal"><label class="fs-anim-lower"><img src="./img/blue_sport.png"/></label></a>
 								</li>
-								<li class="security_img">
-									<label class="fs-anim-lower"><img src="./img/pendant.png" style="width:65%"/></label>
+								<li>
+									<a href="#openPendantModal"><label class="fs-anim-lower"><img src="./img/pendant.png" style="width:65%"/></label></a>
 								</li>
-								<li class="security_img">
-									<label class="fs-anim-lower"><img src="./img/cuff.png"/></label>
+								<li>
+									<a href="#openCuffModal"><label class="fs-anim-lower"><img src="./img/cuff.png"/></label></a>
 								</li>
 							</ul>
 						<div class="fs-anim-upper" id="arrows"><img src="./img/arrows.png"/></div>
@@ -284,6 +301,8 @@
 		<script src="js/fullscreenForm.js"></script>
 		<script src="js/jquery-2.1.4.js"></script>
 		<script src="js/picker.js"></script>
+
+
 		<script>
 			(function() {
 				var formWrap = document.getElementById( 'fs-form-wrap' );

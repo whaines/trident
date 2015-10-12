@@ -20,8 +20,13 @@ $( "li.security_img label img" ).click(function(){
 });
 
 
-$( document ).keypress(function (e) {
-  if(e.which == 13) {
-    $("li.security_img").toggleClass( "no_big_opacity" );
-  }
+$( "div#flight_info a" ).click(function(){
+  $( "div.virgin" ).toggleClass( "visible, virgin" );
 });
+
+
+// $( document ).keypress(function (e) {
+//   if(e.which == 13) {
+//     $("li.security_img").toggleClass( "no_big_opacity" );
+//   }
+// });
