@@ -408,9 +408,8 @@ label.fs-anim-lower.customCheck {
 }
 
 .bg_opacity{
-	background-color: rgba(255, 255, 255, 0.3);
-	border-radius: 100px;
-	border: 1px white;
+	background-color: rgba(0, 0, 0, 0.5);
+	border-radius: 5px;
 }
 
 .no_bg_opacity{
@@ -524,7 +523,7 @@ li#transportation div#brands ul li#selected_brand{
 li#transportation ul#plans{
 	list-style-type: none;
 	text-align: center;
-	padding-right: 3%;
+	padding-right: 10%;
 }
 
 li#transportation ul#plans li{

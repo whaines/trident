@@ -20,11 +20,11 @@ $( "li.security_img label img").click(function(){
 })
 
 
-$( "div.modalDialog1 div a.close" ).click(function(){
-  $( "buttom.fs-continue" ).addEventListener( "click", function(){
-    self.nextField();
-  });
-});
+// $( "div.modalDialog1 div a.close" ).click(function(){
+//   $( "buttom.fs-continue" ).addEventListener( "click", function(){
+//     self.nextField();
+//   });
+// });
 
 
 // toggle security photos

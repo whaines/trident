@@ -399,14 +399,17 @@ li#shopping_bag div#medallion{
 
 li#shopping_bag label#shopping_bag_label{
 	text-align: left;
-	margin-left: 14.5%;
+	margin-left: 15%;
+	font-size: 0.3em;
+	font-weight: lighter;
+	opacity: 0.5;
 }
 
 li#expenses label#address{
 	margin-bottom: 4%;
 }
 
-li.expenses_radios ul span img#card_info{
+div.expenses_radios ul span img#card_info{
 	margin-left: 18%;
 	margin-top: 8%;
 }

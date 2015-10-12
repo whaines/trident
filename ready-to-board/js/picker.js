@@ -19,6 +19,7 @@ $( "li.security_img label img" ).click(function(){
   $( this ).toggleClass( "bg_opacity" );
 });
 
+
 $( document ).keypress(function (e) {
   if(e.which == 13) {
     $("li.security_img").toggleClass( "no_big_opacity" );
