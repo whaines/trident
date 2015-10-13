@@ -295,10 +295,10 @@
 
 // KILL REVIEW AND SUBMIT
 
-
 					// classie.remove( self.formEl, 'fs-form-full' );
-					// classie.add( self.formEl, 'fs-form-overview' );
-					// classie.add( self.formEl, 'fs-show' );
+					classie.add( self.formEl, 'fs-form-overview' );
+					classie.add( self.formEl, 'fs-show' );
+					
 					// callback
 					self.options.onReview();
 				}

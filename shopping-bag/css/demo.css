@@ -183,8 +183,11 @@ ul.header-menu {
 	margin: 0 0 1em 0;
 }
 .fs-form-overview {
-	background: rgba(0, 0, 0, 0.1);
+	background-image: url("../img/thank_you.png");
+	background-repeat: no-repeat;
+	/*background: rgba(0, 0, 0, 0.1);*/
 	border-radius: 5px;
+	margin-left: 11%;
 }
 .fs-fields input {
 	font-size: 0.75em;
@@ -390,7 +393,7 @@ li#shopping_bag div{
 }
 
 li#shopping_bag div img{
-	width: 70%;
+	width: 90%;
 }
 
 li#shopping_bag div#medallion{
@@ -399,7 +402,7 @@ li#shopping_bag div#medallion{
 
 li#shopping_bag label#shopping_bag_label{
 	text-align: left;
-	margin-left: 15%;
+	margin-left: 5%;
 	font-size: 0.3em;
 	font-weight: lighter;
 	opacity: 0.5;
@@ -423,7 +426,7 @@ div#credit_card{
 }
 
 div#summary img{
-	width: 90%;
+	width: 100%;
 	text-align: center;
 }
 
@@ -517,12 +520,8 @@ li#expenses div#edit_address img{
 }
 
 .bg_opacity{
-	background-color: rgba(0, 0, 0, 0.5);
+	background-color: rgba(255, 255, 255, 0.3);
+	border: 1px solid white;
 	border-radius: 100px;
 	cursor: pointer;
-}
-
-.no_bg_opacity{
-	background-color: rgba(255, 255, 255, 0);
-	border-radius: 5px;
 }

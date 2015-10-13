@@ -291,10 +291,7 @@
 					self._hideCtrl( self.ctrlContinue );
 					self._hideCtrl( self.ctrlFldStatus );
 					// replace class fs-form-full with fs-form-overview
-
-// KILL REVIEW AND SUBMIT
-
-					// classie.remove( self.formEl, 'fs-form-full' );
+					classie.remove( self.formEl, 'fs-form-full' );
 					classie.add( self.formEl, 'fs-form-overview' );
 					classie.add( self.formEl, 'fs-show' );
 					// callback

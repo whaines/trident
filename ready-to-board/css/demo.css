@@ -31,7 +31,7 @@ body {
 }
 
 a {
-	color: rgba(0,0,0,0.3);
+	color: white;
 	text-decoration: none;
 	outline: none;
 }
@@ -194,8 +194,10 @@ ul.header-menu {
 	margin: 0 0 1em 0;
 }
 .fs-form-overview {
-	background: rgba(0, 0, 0, 0.1);
-	border-radius: 10px;
+	background-image: url("../img/congrats.png");
+	background-repeat: no-repeat;
+	margin-top: 10%;
+	margin-left: 12%;
 }
 .fs-fields input {
 	font-size: 0.75em;
@@ -408,13 +410,8 @@ label.fs-anim-lower.customCheck {
 }
 
 .bg_opacity{
-	background-color: rgba(0, 0, 0, 0.5);
-	border-radius: 5px;
-}
-
-.no_bg_opacity{
-	background-color: rgba(255, 255, 255, 0);
-	border-radius: 5px;
+	background-color: rgba(255, 255, 255, 0.15);
+	border: 1px solid white;
 }
 
 
@@ -437,16 +434,15 @@ li#flight div#flight_info a{
 
 li#flight div.virgin{
 	visibility: hidden;
+	-webkit-transition: opacity 4000ms ease-in;
+	-moz-transition: opacity 4000ms ease-in;
+	transition: opacity 4000ms ease-in;
 }
 
 .visible{
 	display:block;
 	position: relative;
 	visibility: visible;
-	-webkit-transition: opacity 2.0s ease-in;
-       -moz-transition: opacity 2.0s ease-in;
-         -o-transition: opacity 2.0s ease-in;
-                                  opacity: 1;
 }
 
 
@@ -664,4 +660,9 @@ div#pay_all button img{
 	width: 60%;
 	text-align: center;
 	margin-left: 8%;
+}
+
+
+li#transportation div#medallionss{
+	margin-left: 20%;
 }

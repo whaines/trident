@@ -558,3 +558,37 @@ li#emergency input::-webkit-input-placeholder{
 .hiddenProfileImg{
 	display: inline-block;
 }
+
+
+div.headerBar{
+	height: 5%;
+	width: 30%;
+	margin-left: 35%;
+	margin-right: 35%;
+}
+
+div.headerBar p{
+	font-family: Gotham;
+	text-align: center;
+	font-weight: normal;
+	color: rgba(255, 255, 255, 0.5);
+}
+
+div.headerBar ul{
+	list-style-type: none;
+	padding-right: 10%;
+	text-align: center;
+	-webkit-padding-start:0px;
+}
+
+div.headerBar ul li{
+	text-align: center;
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.headerBar ul li img{
+	height: 60%;
+	width:60%;
+}

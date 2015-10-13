@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="162px" height="162px" viewBox="0 0 162 162" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12081) - http://www.bohemiancoding.com/sketch -->
+    <title>medical</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Ocean-Profile-Set-Up-08-Copy-2" sketch:type="MSArtboardGroup" transform="translate(-1016.000000, -302.000000)" fill="#FFFFFF">
+            <g id="medical" sketch:type="MSLayerGroup" transform="translate(1016.000000, 302.000000)">
+                <path d="M81,162 C125.735065,162 162,125.735065 162,81 C162,36.2649353 125.735065,0 81,0 C36.2649353,0 0,36.2649353 0,81 C0,125.735065 36.2649353,162 81,162 Z" id="Oval-95" fill-opacity="0.15" sketch:type="MSShapeGroup"></path>
+                <path d="M93.066092,69.433908 L93.066092,45.1294051 C93.066092,42.924796 91.2759134,41.125 89.0676162,41.125 L72.9323838,41.125 C70.7280286,41.125 68.933908,42.9178332 68.933908,45.1294051 L68.933908,69.433908 L44.6294051,69.433908 C42.424796,69.433908 40.625,71.2240866 40.625,73.4323838 L40.625,89.5676162 C40.625,91.7719714 42.4178332,93.566092 44.6294051,93.566092 L68.933908,93.566092 L68.933908,117.870595 C68.933908,120.075204 70.7240866,121.875 72.9323838,121.875 L89.0676162,121.875 C91.2719714,121.875 93.066092,120.082167 93.066092,117.870595 L93.066092,93.566092 L117.370595,93.566092 C119.575204,93.566092 121.375,91.7759134 121.375,89.5676162 L121.375,73.4323838 C121.375,71.2280286 119.582167,69.433908 117.370595,69.433908 L93.066092,69.433908 Z" id="Rectangle-57" sketch:type="MSShapeGroup"></path>
+            </g>
+        </g>
+    </g>
+</svg>
